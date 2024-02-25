@@ -5,7 +5,7 @@ import { Server } from "socket.io";
 const port = 8000;
 const app = express();
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "Your Api Key",
 });
 
 const server = app.listen(port, () => {
